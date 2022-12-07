@@ -20,7 +20,7 @@ class InputTextBox:
         if conf is not None:
             self._initWithConf(conf)
         else:
-            self._initWithParams(x, y, width, height, color, width, height, borderWidth)
+            self._initWithParams(x, y, width, height, color, width, height, borderWidth, padding)
 
         self.isActive = False
         self.isClicked = False

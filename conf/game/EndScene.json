@@ -1,12 +1,13 @@
 {
     "messageLabel": {
-        "posX": 100,
-        "posY": 100
+        "posX": 250,
+        "posY": 100,
+        "align": "MID_CENTER"
     },
 
     "returnBtn": {
         "text": "Return",
-        "posX": 100,
-        "posY": 150
+        "posX": 160,
+        "posY": 230
     }
 }

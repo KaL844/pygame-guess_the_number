@@ -4,7 +4,7 @@ from components.input import InputTextBox
 from components.label import Label
 from components.scene import Scene, SceneManager
 from modules.game.logic import CheckResult, GameLogic
-from utils.event_types import MouseEvent
+from utils.enum_types import MouseEvent
 from utils.json_reader import JsonReader
 from utils.logger import Logger
 import utils.constants as constants

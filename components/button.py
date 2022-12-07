@@ -1,15 +1,15 @@
 import pygame
 import typing
 
-from utils.event_types import MouseEvent
+from utils.enum_types import MouseEvent
 from utils.logger import Logger
 
 pygame.init()
 FONT = pygame.font.Font(None, 30)
 
 class Button:
-    DEFAULT_COLOR = (255, 0, 0)
-    DEFAULT_TEXT_COLOR = (0, 255, 0)
+    DEFAULT_COLOR = (255, 255, 255)
+    DEFAULT_TEXT_COLOR = (0, 0, 0)
     DEFAULT_TEXT = ""
     DEFAULT_X = 0
     DEFAULT_Y = 0
@@ -49,8 +49,8 @@ class Button:
         self.text = text
         self.color = color
         self.textColor = textColor
-        self.width: int = width
-        self.height: int = height
+        self.width = width
+        self.height = height
 
     def draw(self, screen: pygame.surface.Surface) -> None:
         pos = pygame.mouse.get_pos()
@@ -66,7 +66,7 @@ class Button:
         pygame.draw.rect(screen, self.color, self.rect)
 
         textImg = FONT.render(self.text, True, self.textColor)
-        screen.blit(textImg, (self.x, self.y))
+        screen.blit(textImg, (self.x + self.width // 2 - textImg.get_size()[0] // 2, self.y + self.height // 2 - textImg.get_size()[1] // 2))
 
     def addEventListener(self, event: MouseEvent, handler: typing.Callable[[], None]) -> None:
         self.eventListeners[event] = handler
