@@ -1,0 +1,39 @@
+{
+    "titleLabel": {
+        "text": "WELCOME",
+        "posX": 250,
+        "posY": 5,
+        "align": "TOP_CENTER"
+    },
+
+    "questionLabel": {
+        "text": "What do you think your number is?",
+        "posX": 250,
+        "posY": 70,
+        "align": "TOP_CENTER"
+    },
+
+    "messageLabel": {
+        "posX": 250,
+        "posY": 100,
+        "align": "TOP_CENTER"
+    },
+
+    "countLabel": {
+        "posX": 250,
+        "posY": 30,
+        "align": "TOP_CENTER"
+    },
+
+    "answerInput": {
+        "posX": 160,
+        "posY": 100,
+        "padding": [10, 10, 10, 10]
+    },
+
+    "checkBtn": {
+        "text": "Check",
+        "posX": 160,
+        "posY": 200
+    }
+}

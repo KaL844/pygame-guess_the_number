@@ -3,7 +3,7 @@ import pygame
 import utils.constants as constants
 import components.scene as scene
 
-from modules.game.scenes import StartScene
+from modules.lobby.scenes import StartScene
 
 pygame.init()
 WINDOW = pygame.display.set_mode((constants.WIDTH, constants.HEIGHT))
