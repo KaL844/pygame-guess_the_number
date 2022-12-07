@@ -1,0 +1,12 @@
+{
+    "messageLabel": {
+        "posX": 100,
+        "posY": 100
+    },
+
+    "returnBtn": {
+        "text": "Return",
+        "posX": 100,
+        "posY": 150
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "titleLabel": {
+        "text": "WELCOME"
+    },
+
+    "questionLabel": {
+        "text": "What do you think your number is?",
+        "posX": 50,
+        "posY": 50
+    },
+
+    "messageLabel": {
+        "posX": 50,
+        "posY": 70
+    },
+
+    "countLabel": {
+        "posX": 50,
+        "posY": 10
+    },
+
+    "answerInput": {
+        "posX": 100,
+        "posY": 100
+    },
+
+    "checkBtn": {
+        "text": "Check",
+        "posX": 100,
+        "posY": 200
+    }
+}
