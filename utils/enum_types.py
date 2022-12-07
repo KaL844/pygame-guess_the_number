@@ -2,7 +2,7 @@ from enum import Enum
 
 
 class MouseEvent(Enum):
-    ON_CLICK = 1
+    ON_TOUCH_END = 1
 
 class AlignType(Enum):
     MID_CENTER = 0

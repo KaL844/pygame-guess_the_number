@@ -45,8 +45,11 @@ class SceneManager:
         if len(self.scenes) > 0: self.scenes[-1].onExit()
 
         self.scenes.append(scene)
-
+        
         scene.onEnter()
+
+    def clear(self) -> None:
+        self.scenes = []
 
     @staticmethod
     def getInstance():

@@ -27,8 +27,8 @@ class StartScene(Scene):
     def init(self) -> None:
         self.sceneMgr = SceneManager.getInstance()
 
-        self.startBotHostBtn.addEventListener(MouseEvent.ON_CLICK, self.onStartBotHostClick)
-        self.startUserHostBtn.addEventListener(MouseEvent.ON_CLICK, self.onStartUserHostClick)
+        self.startBotHostBtn.addEventListener(MouseEvent.ON_TOUCH_END, self.onStartBotHostClick)
+        self.startUserHostBtn.addEventListener(MouseEvent.ON_TOUCH_END, self.onStartUserHostClick)
 
     def draw(self, screen: pygame.surface.Surface) -> None:
         screen.fill(constants.BACKGROUND_COLOR)

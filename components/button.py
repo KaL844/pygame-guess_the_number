@@ -58,10 +58,10 @@ class Button:
         if self.rect.collidepoint(pos):
             if pygame.mouse.get_pressed()[0] == 1 and not self.isClicked:
                 self.isClicked = True
-                if MouseEvent.ON_CLICK in self.eventListeners: self.eventListeners[MouseEvent.ON_CLICK]()
             
             if pygame.mouse.get_pressed()[0] == 0 and self.isClicked:
                 self.isClicked = False
+                if MouseEvent.ON_TOUCH_END in self.eventListeners: self.eventListeners[MouseEvent.ON_TOUCH_END]()
 
         pygame.draw.rect(screen, self.color, self.rect)
 

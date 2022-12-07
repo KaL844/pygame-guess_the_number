@@ -7,33 +7,35 @@
     },
 
     "questionLabel": {
-        "text": "What do you think your number is?",
         "posX": 250,
         "posY": 70,
         "align": "TOP_CENTER"
     },
 
-    "messageLabel": {
+    "answerLabel": {
         "posX": 250,
         "posY": 100,
         "align": "TOP_CENTER"
     },
 
-    "countLabel": {
-        "posX": 250,
-        "posY": 30,
-        "align": "TOP_CENTER"
+    "lowBtn": {
+        "text": "Lower",
+        "posX": 50,
+        "posY": 200,
+        "width": 100
     },
 
-    "answerInput": {
-        "posX": 160,
-        "posY": 100,
-        "padding": [10, 10, 10, 10]
+    "highBtn": {
+        "text": "Higher",
+        "posX": 200,
+        "posY": 200,
+        "width": 100
     },
 
-    "checkBtn": {
-        "text": "Check",
-        "posX": 160,
-        "posY": 200
+    "correctBtn": {
+        "text": "Correct",
+        "posX": 350,
+        "posY": 200,
+        "width": 100
     }
 }
