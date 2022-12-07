@@ -1,0 +1,1 @@
+Run from src folder because configuration files are using relative path
