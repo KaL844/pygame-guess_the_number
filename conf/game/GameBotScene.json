@@ -3,32 +3,34 @@
         "text": "WELCOME",
         "posX": 250,
         "posY": 5,
-        "align": "TOP_CENTER"
+        "anchor": "TOP_CENTER"
     },
 
     "questionLabel": {
         "text": "What do you think your number is?",
         "posX": 250,
         "posY": 70,
-        "align": "TOP_CENTER"
+        "anchor": "TOP_CENTER"
     },
 
     "messageLabel": {
         "posX": 250,
         "posY": 100,
-        "align": "TOP_CENTER"
+        "anchor": "TOP_CENTER"
     },
 
     "countLabel": {
         "posX": 250,
         "posY": 30,
-        "align": "TOP_CENTER"
+        "anchor": "TOP_CENTER"
     },
 
     "answerInput": {
         "posX": 160,
         "posY": 150,
-        "padding": [10, 10, 10, 10]
+        "padding": [10, 10, 10, 10],
+        "textAnchor": "MID_CENTER",
+        "align": "MID_CENTER"
     },
 
     "checkBtn": {

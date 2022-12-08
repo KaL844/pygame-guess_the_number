@@ -3,19 +3,19 @@
         "text": "WELCOME",
         "posX": 250,
         "posY": 5,
-        "align": "TOP_CENTER"
+        "anchor": "TOP_CENTER"
     },
 
     "questionLabel": {
         "posX": 250,
         "posY": 70,
-        "align": "TOP_CENTER"
+        "anchor": "TOP_CENTER"
     },
 
     "answerLabel": {
         "posX": 250,
         "posY": 100,
-        "align": "TOP_CENTER"
+        "anchor": "TOP_CENTER"
     },
 
     "lowBtn": {

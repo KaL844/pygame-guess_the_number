@@ -2,7 +2,7 @@
     "messageLabel": {
         "posX": 250,
         "posY": 100,
-        "align": "MID_CENTER"
+        "anchor": "MID_CENTER"
     },
 
     "returnBtn": {
